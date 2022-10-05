@@ -45,6 +45,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        Toast.makeText(this ,"Welcome", Toast.LENGTH_SHORT).show()
         inputImage = findViewById(R.id.inputImg)
         recognizeText = findViewById(R.id.recognizeText)
         image = findViewById(R.id.image)
